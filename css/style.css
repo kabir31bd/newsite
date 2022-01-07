@@ -1,0 +1,2461 @@
+* {
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: CentSchbook BT, sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    background-color: #008300;
+    background-image: url('images/SMIConBarBackground.png');
+}
+
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Poppins', sans-serif;
+}
+
+a,a:hover {
+    text-decoration: none;
+}
+
+/* *****************************************
+* Neale Armani - project
+*
+********************************************/
+
+.maincont {
+    width: 100%;
+    max-width: 1490px;
+    height: 2000px;
+    position: relative;
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+/*********************** Head Top *************/
+.headertop {
+    width: 100%;
+    height: 30px;
+    background: linear-gradient(to left, #008300 30%, #99ff66 100%);
+    margin: 0px 0px 0px;
+    position: relative;
+    z-index: 5;
+}
+
+
+.headertop .leftside {
+    width: 54%;
+    height: 100%;
+    float: left;
+    color: #99ff66;
+}
+
+.headertop .rightside {
+    width: 46%;
+    height: 100%;
+    float: left;
+}
+
+.container-topmargin {
+    margin-top: 18px;
+}
+
+
+.container-topmargin .navbartop {
+    position: relative;
+    margin: 0px 0px;
+    margin-top: -18px;
+    min-height: 30px !important;
+    height: 30px;
+
+    transition: all 0.4s;
+}
+/*********************** Head Top end*************/
+
+
+.container-topmargin .navbartop .fa-home {
+    font-size: 22px;
+}
+
+/* .container-topmargin .navbartop .contactus ul li{
+    width: 50px;
+} */
+#top-main-linkbar ul li {
+    padding: 0px 10px 0px 10px;
+}
+
+#top-main-linkbar ul li a {
+    text-transform: capitalize;
+    color: white !important;
+    text-align: center;
+    font-family: Open Sans, Lucida sans, Arial;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
+#top-main-linkbar ul li a:hover {
+    background-color: #00843D !important;
+}
+
+.headertop .rightside .nav-linktop {
+    padding: 0px 5px;
+}
+
+#top-main-linkbar ul li a:focus {
+    background-color: #00843D !important;
+}
+
+#top-main-linkbar ul li {
+    border-right: 1px solid #4FB27E;
+}
+
+#top-main-linkbar ul li:first-child {
+    border-left: 1px solid #4FB27E;
+}
+
+@media screen and (min-width: 768px) {
+    .navbar-right-topheader {
+        float: left !important;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .navbar-right-hide {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .navbar-nav>li>a {
+        padding-top: 5px !important;
+        padding-bottom: 5px !important;
+    }
+}
+
+#top-main-linkbar ul li a:hover {
+    color: #CCC !important;
+}
+
+/*****************CSS for Logo & Global Navigation Div*******************/
+.header__language-icon {
+    font-size: 16px;
+}
+
+.navbar {
+    position: relative;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    height: 155px;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: CentSchbook BT;
+    background-color: #FFFFFF;
+    /* font-family:Open Sans,Lucida sans, Arial !important; */
+    text-transform: capitalize;
+    font-size: 1.3em;
+    line-height: 20px;
+    font-weight: 400;
+    z-index: 2;
+    /* width: calc(100% - 360px);
+    left: 360px; */
+    transition: all 0.4s;
+}
+
+.navbar-brand {
+
+    background: url(../images/finallogo.png) no-repeat;
+    background-size: 130px;
+    width: 180px;
+    height: 130px;
+
+    opacity: 0;
+}
+
+.brandlogoshow {
+    opacity: 1;
+    left: 0;
+}
+
+.brandlogohide {
+    opacity: 0;
+    left: -250px;
+}
+
+img.brandlogo_1 {
+    position: relative;
+    left: 140px;
+    top: 25px;
+    height: 46px;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    background-color: #FFFFFF;
+
+    transition: all 0.4s;
+}
+
+.navbar .navbar-brand .brandlogo_2 {
+    position: relative;
+    left: 140px;
+    top: 30px;
+    font-size: 35px;
+
+    padding: 25px 0px;
+    font-family: CentSchbook BT;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: black;
+}
+
+.navbar .navbar-brand .brandlogo_3 {
+    position: relative;
+    left: -26px;
+    top: 62px;
+    font-size: 30px;
+
+    padding: 25px 0px;
+    font-family: Palatino;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: black;
+
+}
+
+/*-------------2ND VERSION---------------*/
+img.brandlogo_1 {
+    position: relative;
+    left: 145px;
+    top: 25px;
+    height: 42px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    background-color: #FFFFFF;
+
+    transition: all 0.4s;
+}
+
+.navbar .navbar-brand .brandlogo_2 {
+    position: relative;
+    left: 140px;
+    top: 30px;
+    font-size: 35px;
+
+    padding: 25px 0px;
+    font-family: CentSchbook BT;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: black;
+}
+
+.navbar .navbar-brand .brandlogo_3 {
+    position: relative;
+    left: -26px;
+    top: 66px;
+    font-size: 30px;
+
+    padding: 25px 0px;
+    /* font-family:Palatino; */
+    font-family: CentSchbook BT;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: black;
+
+}
+
+/*-------------2ND VERSION---------------*/
+
+.langEN1 {
+    background-color: #fff;
+    padding: 2px 6px;
+    border-radius: 1rem;
+    height: initial;
+
+}
+
+.home {
+    font-style: normal;
+    font-size: 26px;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 45px 25px 10px 0px;
+}
+
+.navbar .nav-link {
+    color: #070B4B;
+}
+
+
+.headertop .imgcontainer {
+    position: relative;
+    background-size: cover;
+    background: rgba(250, 244, 244, 0.733);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    opacity: 58%;
+    top: -30px;
+    width: 360px;
+    height: 370px;
+    z-index: 1;
+}
+
+.headertop .imgcontainer .overlay {
+    position: relative;
+    top: -3px;
+    left: 0;
+    width: 330px;
+    height: 330px;
+    padding: 25px 25px;
+
+}
+
+.headertop .imgcontainer .overlay_1 {
+    position: relative;
+    top: -35px;
+    left: -10px;
+    width: 350px;
+
+}
+
+.headertop .imgcontainer .overlay_2 {
+    position: relative;
+    top: -65px;
+    left: 40px;
+    width: 60px;
+
+}
+
+
+.headertop .imgcontainer .overlay_3 {
+    position: relative;
+    top: -65px;
+    left: 165px;
+    width: 60px;
+
+}
+
+.carousel {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    margin: 0px 0px;
+    height: 420px;
+    padding: 0px 0px 0px 0px;
+}
+
+.slide {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    margin: 0px -10px;
+    height: 380px;
+}
+
+.carousel .carousel-inner {
+    width: 100%;
+    height: 100%;
+    margin: 0px 0px;
+}
+
+.carousel .carousel-inner .container1 {
+    float: left;
+    width: 50%;
+    height: 100%;
+    top: 0px;
+    background-color: #DDD;
+}
+
+.carousel .carousel-inner .container1 .carousel-item {
+    height: 100%;
+}
+
+.carousel .carousel-inner .container2 {
+    float: left;
+    width: 50%;
+    height: 100%;
+    background-color: #070B4B;
+    z-index: 500;
+}
+
+
+#range-logo {
+    display: inline-block;
+    background-size: 300px 450px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background-image: url(images/F6.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.carousel .carousel-inner .container2 h1 {
+    color: #fff;
+    font-size: 26px;
+    line-height: 36px;
+    font-weight: 600;
+    z-index: 10;
+}
+
+.carousel .carousel-inner .container2 p {
+    color: #fff;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    z-index: 10;
+}
+
+.carousel .carousel-inner .container2 h2 {
+    color: #fff;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 500;
+    z-index: 10;
+}
+
+.carousel .carousel-inner .container2 .share {
+    z-index: 10;
+    background-color: darkgray;
+}
+
+.slogan-container {
+    float: left;
+    height: 30px;
+
+    background-color: #008300;
+    position: relative;
+    text-align: center;
+    margin: 0px 0px 0px;
+    padding: 0px 0px 5px;
+}
+
+.slogan-container .leftside {
+    width: 50%;
+    float: left;
+    margin: -15px 0px 0px;
+    position: relative;
+    display: block;
+}
+
+.slogan-container .rightside {
+    width: 50%;
+    float: left;
+    margin: -15px 0px 0px;
+    position: relative;
+    display: block;
+}
+
+.slogan-container .rightside h1 span {
+    margin-top: 0px;
+}
+
+.maincont .slogan-container h1 span {
+    font-family: "effra" !important;
+    font-size: 20px !important;
+    line-height: 32px !important;
+
+    color: #FFFFFF;
+    font-weight: 900;
+
+}
+
+.maincont .slogan-container h1 span a {
+    font-size: 12px;
+    padding: 3px;
+}
+
+/***** 2nd  start *******/
+
+.slogan-container1 {
+    float: left;
+    height: 40px;
+
+    background-color: #00023D;
+    position: relative;
+    text-align: center;
+    margin: 0px 0px 0px;
+    padding: 0px 0px 5px;
+    color: #30D8A8;
+}
+
+.slogan-container1 .leftside {
+    width: 50%;
+    float: left;
+    margin: -15px 0px 0px;
+    position: relative;
+    display: block;
+}
+
+.slogan-container1 .rightside {
+    width: 50%;
+    float: left;
+    margin: -15px 0px 0px;
+    position: relative;
+    display: block;
+}
+
+.slogan-container1 .rightside h1 span {
+    margin-top: 0px;
+
+}
+
+.maincont .slogan-container1 h1 span {
+    font-family: "effra" !important;
+    font-size: 22px !important;
+    line-height: 32px !important;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.maincont .slogan-container1 h1 span a {
+    font-size: 18px;
+    padding: 3px;
+    color: #30D8A8;
+}
+
+/***** 2nd   *******/
+
+
+/***** 3rd  start *******/
+.slogan-container2 {
+    float: left;
+    height: 30px;
+
+    background-color: #30D8A8;
+    position: relative;
+    text-align: center;
+    margin: 0px 0px 0px;
+    padding: 0px 0px 5px;
+
+}
+
+.slogan-container2 .leftside {
+    width: 50%;
+    float: left;
+    margin: -15px 0px 0px;
+    position: relative;
+    display: block;
+}
+
+.slogan-container2 .rightside {
+    width: 50%;
+    float: left;
+    margin: -15px 0px 0px;
+    position: relative;
+    display: block;
+}
+
+.slogan-container2 .rightside h1 span {
+    margin-top: 0px;
+    letter-spacing: 1px;
+}
+
+.maincont .slogan-container2 h1 span {
+    font-family: "effra" !important;
+    font-size: 20px !important;
+    line-height: 32px !important;
+    color: #00023D;
+    font-weight: 900;
+}
+
+.maincont .slogan-container2 h1 span a {
+    font-size: 12px;
+    padding: 3px;
+}
+
+/***** 3rd   *******/
+
+
+.videos {
+    width: 100%;
+    height: 100%;
+    float: left;
+    position: relative;
+    margin: 0px 0px 0px;
+}
+
+.videos h1 {
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    line-height: 48px;
+    color: #23085A;
+    margin: 15px 0px;
+    text-align: center;
+    font-weight: 700;
+    background-image: url(../images/why-igcse-bigx.png);
+}
+
+.videos .vimg {
+    height: 250px;
+    padding: 0px 0px;
+    margin: 0px 5px;
+}
+
+img.vimg {
+    padding: 0px 5px;
+}
+
+.middleimg1 {
+    width: 200px;
+    height: 130px;
+    top: 0;
+    left: 0;
+    margin-top: 20px;
+}
+
+.middleimg1 img {
+    width: 200px;
+    height: 130px;
+    padding: 1px 1px 1px 1px;
+}
+
+.middleimg2 {
+    width: 200px;
+    height: 130px;
+    top: 0;
+    right: 0;
+    margin-top: 20px;
+}
+
+.middleimg2 img {
+    width: 200px;
+    height: 130px;
+    padding: 1px 1px 1px 1px;
+}
+
+.middleimg3 {
+    width: 200px;
+    height: 130px;
+    top: 50%;
+    left: 50%;
+}
+
+.middleimg3 img {
+    width: 200px;
+    height: 130px;
+    padding: 1px 1px 1px 1px;
+}
+
+.middleimg4 {
+    width: 200px;
+    height: 130px;
+    top: 50;
+    right: 0;
+}
+
+.middleimg4 img {
+    width: 200px;
+    height: 130px;
+    padding: 2px;
+    padding: 1px 1px 1px 1px;
+}
+
+/******************* Our programes *********************/
+
+.homepage-courses {
+    width: 100%;
+    height: 100%;
+    background-color: #23085A;
+}
+
+.homepage-courses h3{
+    font-family: CentSchbook BT, sans-serif;
+    font-size: 26px;
+    font-weight: 900;
+}
+
+.block-course-1 {
+    width: 50%;
+    float: left;
+    background-color: #23085A;
+    padding: 0px 0px 0px 0px;
+    margin: 5px 0px 0px 0px;
+    font-family: CentSchbook BT, sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+.block-course-1 .block-course-1-part1 {
+    background-color: #FFFFFF;
+    margin: 30px 20px 40px 50px;
+    padding: 40px 15px 50px 30px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    text-align: justify;
+}
+
+.block-course-1  .block-course-1-part2 {
+    background-color: #FFFFFF;
+    margin: 0px 20px 40px 50px;
+    padding: 40px 15px 50px 30px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    text-align: justify;
+}
+
+.block-course-3 {
+    width: 50%;
+    float: left;
+    background-color: #23085A;
+    padding: 0px;
+    margin: 0px;
+}
+
+.block-course-3-part1 {
+    height: 94%;
+    background-color: #FFFFFF;
+    margin: 30px 50px 0px 25px;
+    padding: 30px 25px 0px 25px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    font-family: CentSchbook BT, sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 500;
+    text-align: justify;
+}
+
+.readmore {
+    align-items: center;
+    min-width: 120px;
+    height: 30px;
+    padding: 0 0px;
+    font-size: 15px;
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #23085A;
+    border: 0;
+    border-radius: 20px;
+    opacity: 1;
+    transition: all .3s linear;
+    color: #FFFFFFFF;
+    -webkit-box-shadow: 0 10px 6px -6px #5DEB4B;
+    -moz-box-shadow: 0 10px 6px -6px #5DEB4B;
+    box-shadow: 0 10px 6px -6px #5DEB4B;
+}
+.readmore a{
+    color: #FFFFFFFF;
+}
+
+
+
+.readmoregreen {
+    align-items: center;
+    min-width: 120px;
+    height: 30px;
+    padding: 0 0px;
+    font-size: 15px;
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #0d6305;
+    border: 0;
+    border-radius: 20px;
+    opacity: 1;
+    transition: all .3s linear;
+    color: #FFFFFFFF;
+    -webkit-box-shadow: 0 10px 6px -6px #5DEB4B;
+    -moz-box-shadow: 0 10px 6px -6px #5DEB4B;
+    box-shadow: 0 10px 6px -6px #5DEB4B;
+}
+
+.readmoregreen a{
+    color: #FFFFFFFF;
+}
+
+
+
+.block-course-title {
+    font-family: CentSchbook BT;
+    text-transform: capitalize;
+}
+
+/***********************Our programes End ******************/
+
+/********************************** Daar e aysha start ***************/
+
+hr {
+    border: none;
+    width: 90%;
+    height: 3px;
+    margin-top: 0;
+    border-bottom: 1px solid #1f1209;
+    box-shadow: 0 20px 20px -20px #333;
+    margin: -3px auto 1px;
+}
+
+.videos_aysha {
+    width: 100%;
+    height: 100%;
+    float: left;
+    position: relative;
+    margin: 0px 0px 0px;
+}
+
+.videos_aysha h1 {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 38px;
+    line-height: 45px;
+    color: #070B4B;
+    text-align: left;
+    font-weight: 800;
+    background-image: url(../images/why-igcse-bigx.png);
+    margin: 70px 0px 60px 45px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.videos_aysha p {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
+    color: #070B4B;
+    text-align: left;
+    font-weight: 400;
+    line-height: 2.5em;
+}
+
+.line {
+    width: 500px;
+    height: 100px;
+    border: solid 5px #000;
+    border-color: transparent transparent #000 transparent;
+    border-radius: 0 0 240px 50%/60px;
+}
+
+
+.videos_aysha_ourcorebckgrnd {
+    background-image: url(../images/SMIConBarBackground.png);
+    background-repeat: repeat;
+}
+
+
+.videos_aysha_ourcore {
+    width: 100%;
+    height: 100%;
+    float: left;
+
+
+    /* -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; */
+
+
+}
+
+.corevaluesrow {
+    background-image: url(../images/bg1.png);
+    background-repeat: repeat;
+}
+
+.videos_aysha_ourcore {
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.videos_aysha_ourcore .corevaluesrow {
+    text-align: center;
+    padding: 20px 0px;
+    background-color: #FFFFFF;
+}
+
+.videos_aysha_ourcore .corevaluesrow img {
+    width: 85px;
+    height: 85px;
+}
+
+.corevaluesrow p {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+    color: #020636;
+    font-weight: 900;
+
+}
+
+
+.videos_aysha_ourcore h1 {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 38px;
+    line-height: 45px;
+    color: #070B4B;
+    text-align: center;
+    font-weight: 800;
+    text-transform: capitalize;
+    padding: 25px 0px;
+}
+
+
+
+.divMainBox {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #FFFFFF;
+    box-shadow: 3px 5px #888888;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+
+    /* background-color: blanchedalmond; */
+    /* background-image: url(../images/IMG-1244.JPG); */
+    /* background-size: 450px;
+    background-position: center;
+    background-repeat: no-repeat; */
+}
+
+.divMainBox .row {
+    padding: 0px;
+}
+
+.divMainBox div {
+    padding: 0px;
+}
+
+.divMainThreeBox {
+    width: 100%;
+    float: left;
+    margin: 0px 0px 0px -10px;
+}
+
+/* .videos_aysha_ourcore{
+    background-image: url(../images/IMG-1242.png);
+    background-repeat: no-repeat;    
+    background-size: 100%;
+} */
+
+.videos_aysha_ourcore .box1 {
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/IMG-1242.png);
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 650px;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+
+    /* background-attachment: fixed; */
+    /* background-position: center center;
+    background-size: cover; */
+    /* background-position:top; */
+}
+
+.divMainThreeBox .box2 {
+    background-image: url(../images/IMG-1242.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 33%;
+}
+
+.videos_aysha_ourcore .box3 {
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/IMG-1242.png);
+    background-repeat: no-repeat;
+    /* background-size: 100%; */
+    width: 50%;
+    height: 650px;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.videos_aysha_ourcore_leftbox {
+
+
+
+    /* border: 2px solid #FFFFFF;
+    box-shadow: 3px 5px #888888;
+    float: left; */
+    /* margin-left: 150px 20px 0px 125px; */
+
+    /* padding: 75px 0px; */
+    /* background-color: #30289d; */
+    /* text-align: center; */
+}
+
+.authentication {
+    background-color: #30289d;
+    text-align: center;
+    width: 260px;
+    height: 370px;
+    margin: 216px 0px 0px 185px;
+}
+
+
+.authentication h3 {
+    color: #FFFFFF;
+    font-family: CentSchbook BT, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: -205px;
+}
+
+.authentication p {
+    color: #FFFFFF;
+    font-family: CentSchbook BT, sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    padding: 20px;
+}
+
+.videos_aysha_ourcore .authentication p {
+    font-family: CentSchbook BT, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    font-weight: 400;
+
+}
+
+.authentication .authenticationimg {
+    width: 85px;
+    height: 85px;
+    margin: 10px;
+}
+
+
+.authentication .authenticationkal {
+    width: 225px;
+    height: 205px;
+    top: 75px;
+    left: 335px;
+    position: relative;
+
+}
+
+
+.middlelogox {
+    width: 655px;
+    height: 600px;
+    margin: 330px;
+}
+
+.middlelogo img {
+    border-radius: 100%;
+    margin: 120px 0px 10px 35px;
+    width: 335px;
+}
+
+.qualityright {
+    background-color: #30289d;
+    text-align: center;
+    width: 260px;
+    height: 370px;
+    margin: 216px 0px 0px 185px;
+}
+
+.videos_aysha_ourcore .qualityright p {
+    font-family: CentSchbook BT, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    font-weight: 400;
+}
+
+
+.qualityright img {
+    width: 85px;
+    height: 85px;
+    margin: 10px;
+}
+
+.qualityright h3 {
+    color: #FFFFFF;
+    font-family: CentSchbook BT, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+.qualityright p {
+    color: #FFFFFF;
+    font-family: CentSchbook BT, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 20px;
+}
+
+/* .videos_aysha_ourcore_rightbox {
+    border: 2px solid #FFFFFF;
+    box-shadow: 3px 5px #888888;
+    float: left;
+    top: 0;
+    right: 0;
+    padding: 75px 4%;
+    background-color: #30289d;
+    margin-left: 20px;
+    text-align: center;
+} */
+
+
+.videos_aysha_ourcore_rightbox {
+    background-image: url(../images/IMG-1242.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+
+
+.videos_aysha_ourcore_rightbox h3 {
+    color: #FFFFFF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.videos_aysha_ourcore_rightbox img {
+    margin: -50px 0px 0px 0px;
+}
+
+
+.cir_1 img {
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+}
+
+.cir_2 img {
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+}
+
+.cir_3 img {
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+}
+
+.cir_4 img {
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+}
+
+.cir_5 img {
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+}
+
+.cir_6 img {
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+}
+
+.cir_7 img {
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+}
+
+.cir_8 img {
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+}
+
+.cir_9 img {
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+}
+
+
+.divBox {
+    width: 300px;
+    height: 100px;
+    border: 1px solid blue;
+}
+
+
+/********************************** Daar e aysha end ***************/
+/* .maincontainerdaareasyhabackground {
+    background-image: url(../images/SMIConBarBackground.png);
+    background-size: 50px;
+    background-color: #FFFFFF;
+} */
+
+.FullWidthRowNews2 {
+    width: 100%;
+    height: 250px;
+    float: left;
+    position: relative;
+    margin-top: 60px;
+}
+
+.FullWidthRowNews2 .navbar-about {
+    font-size: 24px;
+    line-height: 34px;
+}
+
+.FullWidthRowNews2 .navbar-about .head-color {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+
+.whyus {
+    /* background-color: #070B4B; */
+
+    width: 100%;
+    height: 100%;
+    color: #FFFFFF;
+    background-color: #23085A;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    text-align: center;
+    position: relative;
+    /* background: transparent !important; */
+    background-image: url('images/bg_1.jpg') no-repeat;
+    background-size: fixed;
+    background-image: url(../images/bg_1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.block-title {
+
+    font-family: CentSchbook BT, sans-serif;
+    font-size: 38px;
+    line-height: 48px;
+    font-weight: 900;
+    color: #FFFFFF;
+    background-color: #23085A;
+    text-align: center;
+    padding: 25px;
+}
+
+.whyus .whyusblock{
+    width: 100%;
+    height: 100%;
+    /* margin: 15px; */
+}
+
+.whyus ul {
+    width: 100%;
+    /* max-width: 1024px; */
+    height: 140px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    -moz-justify-content: space-between;
+    -ms-justify-content: space-between;
+    justify-content: space-between;
+    -ms-flex-pack: space-between;
+    margin: 10px 0px 13px -35px;
+    padding: 0px 80px;
+    float: left;
+    position: relative;
+    list-style-type: none;
+    text-align: center;
+}
+
+.whyus ul li {
+    background-color: #fff;
+    border: 3px solid #5DEB4B;
+    border-radius: 50px 0;
+    float: left;
+    -webkit-box-shadow: 0 10px 6px -6px #5DEB4B;
+    -moz-box-shadow: 0 10px 6px -6px #5DEB4B;
+    box-shadow: 0 10px 6px -6px #23085a;
+    /* margin-left: 16px; */
+    margin: 0px 15px;
+}
+
+
+.whyus ul li .box-bottom-shadow {
+    -webkit-box-shadow: 0 8px 6px -6px #5DEB4B;
+    -moz-box-shadow: 0 8px 6px -6px #5DEB4B;
+    box-shadow: 0 8px 6px -6px #5DEB4B;
+}
+
+
+.whyus ul li h3 {
+    color: #23085A;
+    text-align: left;
+    padding: 15px 0px 0px 45px;
+    font-family: "BritishCouncilSansW01-Headline", Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 19px;
+    line-height: 19px;
+    padding-left: 58px;
+    font-weight: 600;
+    position: relative;
+}
+
+.whyus ul li h3:before {
+    content: '';
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: url(../images/check-pu.svg) center no-repeat;
+    background-size: 13px 10px;
+    border: 3px solid #00953B;
+    border-radius: 10px 0;
+    position: absolute;
+    margin: 0px -40px;
+}
+
+.whyus_col_p {
+    width: 100%;
+    height: 100%;
+    font-family: CentSchbook BT, sans-serif;
+    line-height: 15px;
+    font-weight: 400;
+    text-align: center;
+    color: #23085A;
+    margin: 15px 3px;
+}
+
+.whyus_col_p_s {
+    width: 100%;
+    height: 100%;
+    font-family: CentSchbook BT, sans-serif;
+    line-height: 15px;
+    font-weight: 400;
+    text-align: center;
+    color: #23085A;
+    margin: 25px 3px;
+}
+
+.whyus ul li p {
+    font-family: CentSchbook BT, sans-serif;
+    line-height: 15px;
+    font-weight: 400;
+    text-align: center;
+    position: relative;
+    color: #23085A;
+
+    padding-left: 58px;
+    font-size: 15px;
+
+}
+
+.whyus h3 {
+    color: #23085A;
+    padding: 0px 5px;
+}
+
+/* .whyus p {
+    color: #FFFFFF;
+    font-family: CentSchbook BT, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 5px 0px;
+    font-weight: 500;
+    padding: 25px 0px;
+    text-align: center;
+    position: relative;
+} */
+
+
+.whyus p{
+
+    font-family: CentSchbook BT, sans-serif;
+    font-size: 30px;
+    line-height: 28px;
+    font-weight: 900;
+    text-align: center;
+    position: relative;
+
+}
+
+.whyus h5 {
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    color: #e9ecef;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    text-align: left;
+    position: relative;
+}
+
+.whyus .whTitle p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    margin: 0px 0px;
+    padding: 10px 0px;
+    text-align: center;
+    position: relative;
+    color: #e9ecef;
+}
+
+.whyus .whTitleD p {
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    color: #e9ecef;
+    margin: 0px 0px;
+    padding: 20px 0px;
+    text-align: left;
+    position: relative;
+}
+
+/* 
+.whyus img {
+    width: 100%;
+    height: 250px;
+    margin: 0px 20px;
+} */
+
+
+/*
+
+
+
+.mainitemlt {
+    padding: 25px;
+}
+
+.mainitemrt {
+    padding: 25px;
+}
+
+.middleimg {
+    padding: 20px;
+}
+
+.ENGLISHboximg {
+    width: 215px;
+    height: 120px;
+    top: 3%;
+    right: 20px;
+    position: absolute;
+    z-index: 1;
+}
+
+.CONNECTIONboximg {
+    width: 215px;
+    height: 120px;
+    top: 20%;
+    right: 20px;
+    position: absolute;
+    z-index: 1;
+}
+
+
+.TICKETboximg {
+    width: 215px;
+    height: 120px;
+    top: 39%;
+    right: 20px;
+    position: absolute;
+    z-index: 1;
+}
+
+
+.TRANSFORMboximg {
+    width: 215px;
+    height: 120px;
+    top: 56%;
+    right: 20px;
+    position: absolute;
+    z-index: 1;
+}
+
+.ENROLboximg {
+    width: 215px;
+    height: 120px;
+    top: 75%;
+    right: 20px;
+    position: absolute;
+    z-index: 1;
+}
+
+
+.ENGLISHbox {
+    width: 175px;
+    height: 60px;
+    top: 5%;
+    right: 20px;
+    position: absolute;
+    background: linear-gradient(to left, #008300 30%, #99ff66 100%);
+    border: 2px solid white;
+    border-radius: 30px;
+    z-index: 1;
+    font-family: 'Poppins', sans-serif;
+}
+
+.CONNECTIONbox {
+    width: 175px;
+    height: 60px;
+    top: 20%;
+    right: 20px;
+    position: absolute;
+    background: linear-gradient(to left, #008300 30%, #99ff66 100%);
+    border: 2px solid white;
+    border-radius: 30px;
+    z-index: 1;
+    font-family: 'Poppins', sans-serif;
+}
+
+.TICKETbox {
+    width: 175px;
+    height: 60px;
+    top: 35%;
+    right: 20px;
+    position: absolute;
+    background: linear-gradient(to left, #008300 30%, #99ff66 100%);
+    border: 2px solid white;
+    border-radius: 30px;
+
+    z-index: 1;
+}
+
+.TRANSFORMbox {
+    width: 175px;
+    height: 60px;
+    top: 51%;
+    right: 20px;
+    position: absolute;
+    background: linear-gradient(to left, #008300 30%, #99ff66 100%);
+    border: 2px solid white;
+    border-radius: 30px;
+
+    z-index: 1;
+}
+
+.ENROLbox {
+    width: 175px;
+    height: 60px;
+    top: 66%;
+    right: 20px;
+    position: absolute;
+    background: linear-gradient(to left, #008300 30%, #99ff66 100%);
+    border: 2px solid white;
+    border-radius: 30px;
+
+    z-index: 1;
+}
+
+
+
+.carousel-inner .ENGLISHbox:hover {
+    cursor: pointer;
+}
+
+
+.carousel-inner .CONNECTIONbox:hover {
+    cursor: pointer;
+}
+
+
+.carousel-inner .TICKETbox:hover {
+    cursor: pointer;
+}
+
+
+.carousel-inner .TRANSFORMbox:hover {
+    cursor: pointer;
+}
+
+.carousel-inner .ENROLbox:hover {
+    cursor: pointer;
+}
+
+.carousel-inner .ENGLISHbox span {
+    width: 100%;
+    float: left;
+    color: yellow;
+    padding: 18px 40px;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.carousel-inner .CONNECTIONbox span {
+    width: 100%;
+    float: left;
+    color: yellow;
+    padding: 18px 12px;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.carousel-inner .TICKETbox span {
+    width: 100%;
+    float: left;
+    color: yellow;
+    padding: 18px 50px;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.carousel-inner .TRANSFORMbox span {
+    width: 100%;
+    float: left;
+    color: yellow;
+    padding: 18px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.carousel-inner .ENROLbox span {
+    width: 100%;
+    float: left;
+    color: yellow;
+    padding: 18px 15px;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+
+
+.carousel-inner .ENGLISHbox span:hover {
+    color: #FFD51D;
+    background: #007237;
+    border-radius: 30px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border: 0px;
+}
+
+
+.carousel-inner .CONNECTIONbox span:hover {
+    color: #FFD51D;
+    background: #007237;
+    border-radius: 30px;
+}
+
+.carousel-inner .TICKETbox span:hover {
+    color: #FFD51D;
+    background: #007237;
+    border-radius: 30px;
+}
+
+.carousel-inner .TRANSFORMbox span:hover {
+    color: #FFD51D;
+    background: #007237;
+    border-radius: 30px;
+}
+
+.carousel-inner .ENROLbox span:hover {
+    color: #FFD51D;
+    background: #007237;
+    border-radius: 30px;
+}
+
+
+.Admission {
+    width: 100%;
+    height: 280px;
+    background-color: #008300;
+    position: relative;
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+}
+
+
+.Admission h1 span {
+    width: 100%;
+    height: 250px;
+    background-color: #008300;
+    position: relative;
+    text-align: center;
+    margin: 25px 0px;
+    font-style: normal;
+    font-size: 36px;
+    font-weight: 600;
+    color: #FFFFFF;
+    text-decoration: underline;
+    margin: 25px 0px;
+
+}
+
+
+.Admission img {
+    width: 450px;
+    height: 230px;
+    padding: 20px 0px;
+    margin: 20px 0px;
+}
+
+
+.Admission h1 {
+    font-style: normal;
+    font-size: 28px;
+    line-height: 38px;
+    font-weight: 600;
+    color: #FFFFFF;
+
+}
+
+
+.Admission .Apply {
+    width: 600px;
+    height: 250px;
+    position: relative;
+    text-align: center;
+    margin: 35px 0px 0px;
+    text-align: left;
+}
+
+
+.Admission .Apply h1 {
+    font-style: normal;
+    font-size: 36px;
+    line-height: 46px;
+    font-weight: 600;
+
+    font-style: normal;
+
+    color: #070B4B;
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 35px;
+}
+
+.Admission .Apply p {
+    width: 100%;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #FFFFFF;
+    padding: 10px 0px;
+}
+
+
+.Admission .Apply .appliya {
+    width: 85px;
+    font-style: normal;
+    font-size: 26px;
+    line-height: 36px;
+    font-weight: 700;
+    background: linear-gradient(to left, #070B4B 00%, #99ff66 100%);
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    padding: 25px 25px 25px 25px;
+    margin: 15px 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+
+.Admission .Apply .social-icons img {
+    width: 20px;
+    height: 20px;
+}
+
+#square {
+    list-style-type: square;
+}
+
+
+.logins {
+    margin: 55px 20px;
+}
+
+.logins .parentlogin p a {
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: honeydew;
+    margin: 20px 0px;
+}
+
+.logins .studentlogin p a {
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: honeydew;
+    margin: 20px 0px;
+}
+
+.logins .stafflogin p a {
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: honeydew;
+    margin: 20px 0px;
+}
+
+.logins .boardlogin p a {
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: honeydew;
+    margin: 20px 0px;
+}
+
+
+
+.fbsb {
+    position: fixed;
+    top: 42%;
+    right: -140px;
+    transition: 1s;
+    z-index: 99;
+}
+
+.fbsb:hover {
+    right: 0px;
+    cursor: pointer;
+}
+
+.piterestsb {
+    position: fixed;
+    top: 32%;
+    right: -140px;
+    transition: 1s;
+    z-index: 99;
+}
+
+.piterestsb:hover {
+    right: 0px;
+    cursor: pointer;
+}
+
+.youtubesb {
+    position: fixed;
+    top: 52%;
+    right: -140px;
+    transition: 1s;
+    z-index: 99;
+}
+
+.youtubesb:hover {
+    right: 0px;
+    cursor: pointer;
+}
+
+.achievements-container {
+    width: 100%;
+    height: 500px;
+}
+
+article#achievements {
+    margin: 0px 0px;
+    padding: 0px 0px;
+    background-image: url(../images/why-iqra-clear.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 0;
+    margin: 0px;
+}
+
+.text {
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    line-height: 24px;
+    color: honeydew;
+    margin: 0px 0px;
+    padding: 80px 0px;
+    text-align: center;
+    position: relative;
+}
+
+.infos {
+    text-align: center;
+    margin: 40px 0px;
+}
+
+
+
+m.achievements-container h4 {
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    font-size: 26px;
+    line-height: 36px;
+    color: #e9ecef;
+}
+
+.achievements-container .counter {
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    font-size: 66px;
+    line-height: 76px;
+    color: honeydew;
+}
+
+.achievements-container p {
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    color: honeydew;
+}
+
+
+.socialmedia {
+    width: 100%;
+    float: left;
+}
+
+.socialmedia .fb {
+    width: 100%;
+    float: left;
+}
+
+.socialmedia .youtube {
+    width: 100%;
+    float: left;
+}
+
+.socialmedia .instagram {
+    width: 100%;
+    float: left;
+}
+
+footer {
+    position: relative;
+    background-color: #008300;
+}
+
+.address p {
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: honeydew;
+    margin: 20px 0px;
+
+}
+
+
+#sloganopen {
+    display: none;
+}
+
+#sloganopened {
+    background-image: url(../images/camb.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+} 
+
+.social-icons {
+    width: 100%;
+    padding: 0px 0px;
+    text-align: center;
+    display: inline-block;
+}
+
+.social-icons ul {
+    width: 100%;
+    display: block;
+}
+
+.social-icons ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+
+.social-icons ul li a {
+    display: block;
+    width: 50px;
+    height: 30px;
+    line-height: 24px;
+    margin: 5px 0px;
+    padding: 2px 0px;
+    font-size: 20px;
+    border-radius: 100%;
+    background: linear-gradient(to left, #fff 00%, #99ff66 100%);
+}
+
+*/
+
+
+/***************** apply online ****************/
+#top-main-linkbar ul {
+    background-color: #008300;
+}
+
+#top-main-linkbar ul li {
+    background-color: #008300;
+}
+
+#top-main-linkbar .dropdown-item {
+    background-color: #008300;
+}
+
+
+#applyonlinebody {
+    width: 100%;
+    height: 100%;
+    float: left;
+    background-color: rgb(245, 240, 240);
+    background-size: cover;
+    color: black;
+}
+
+#applyonlinebody h4 {
+    font-family: CentSchbook BT;
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 900;
+    margin: 20px 0px;
+    color: black;
+}
+
+#applyonlinebody p {
+    font-family: CentSchbook BT;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 500;
+}
+
+.applyh1 {
+    font-family: CentSchbook BT;
+    /* font-family:Libre Baskerville; */
+    font-size: 34px;
+    line-height: 44px;
+    font-weight: 900;
+    margin: 30px 0px;
+    color: black;
+}
+
+#applyonlinebody .imgcontainer {
+    width: 100%;
+    height: 100%;
+    margin-left: 100px;
+}
+
+.regform {
+    margin: 0px 0px 0px 0px;
+}
+
+
+.middlepadding {
+    margin: 0px 100px;
+}
+
+.middlepadding h4 {
+    text-align: center;
+}
+
+.maincontainerapplyonline .formtitle {
+    text-align: center;
+    padding-left: 70px;
+}
+
+.maincontainerapplyonline h6 {
+    margin: 0px 40px;
+    color: black;
+}
+
+.section {
+    padding: 20px 0px 0px 15px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px 14px;
+    margin: 10px 40px;
+    background: #fff;
+    border: 1px solid #e6e6e6;
+    color: black;
+    line-height: 28px;
+    vertical-align: middle;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+
+    font-family: CentSchbook BT;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+
+}
+
+textarea {
+    padding: 10px 14px;
+    background: #fff;
+    border: 1px solid #e6e6e6;
+    color: black;
+    line-height: 28px;
+    vertical-align: middle;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    width: 100%;
+}
+
+#myInput {
+    padding: 10px 14px;
+    margin: 10px 40px;
+    background: #fff;
+    border: 1px solid #e6e6e6;
+    color: black;
+    line-height: 28px;
+    vertical-align: middle;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    width: 100%;
+}
+
+
+select {
+    box-sizing: border-box;
+    list-style: none;
+    margin: 0;
+    padding: 0 5px;
+    width: 100%;
+}
+
+#Registration {
+    margin: 25px 40px;
+    width: 120px;
+    /* color: #08a0a9;
+    border-color: 1px solid #08a0a9; */
+}
+
+/* .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #08a0a9 !important;
+} */
+
+#iagree {
+    margin: 5px 5px;
+    width: 100px;
+    /* width: 100%;
+    height: 100%; */
+}
+
+#lbliagree {
+    font-family: CentSchbook BT;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+
+}
+
+
+
+.doubleline {
+    border-bottom: 4px double #333;
+    border-top: 4px double #999;
+    padding: 10px 0px;
+    margin-left: 50px;
+    text-align: center;
+}
+
+/* select {
+    display: inline-block;
+    overflow: hidden;
+    padding-left: 8px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+} */
+
+
+
+/* ***************** Tutions & Fees ******************/
+
+.tfmaint {
+    width: 100%;
+    height: 100%;
+    float: left;
+    background-color: rgb(245, 240, 240);
+    background-size: cover;
+}
+
+.tfh1 {
+    font-family: CentSchbook BT;
+    margin: 0 0 34px 0;
+    font-size: 36px;
+    font-weight: 300;
+    color: black;
+
+}
+
+.tfmaint .table1 {
+    font-family: CentSchbook BT;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+
+.tfmaint .table1 .row {
+
+    background: #fff;
+    padding: 13px 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+    color: #595959;
+
+}
+
+.tfmaint p {
+    font-family: CentSchbook BT;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+
+    color: black;
+
+}
+
+.maincont1 p {
+    font-family: CentSchbook BT;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+
+    color: black;
+
+}
+
+.maincont1 ul li {
+    font-family: CentSchbook BT;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+
+.maincont1 {
+    width: 100%;
+    height: 100%;
+    float: left;
+    background-color: rgb(245, 240, 240);
+    background-size: cover;
+    padding: 35px 0px;
+}
+
+.maincont1 .tfh1 {
+    font-family: CentSchbook BT;
+    margin: 0 0 34px 0;
+    font-size: 36px;
+    font-weight: 300;
+    color: black;
+}
+
+
+.maincont2 {
+    width: 100%;
+    height: 100%;
+    float: left;
+    background-color: rgb(245, 240, 240);
+    background-size: cover;
+    padding: 35px 0px;
+}
+
+.maincont2 p {
+    font-family: CentSchbook BT;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 600;
+    margin: 20px 100px;
+}
+
+
+
+.maincontshlr {
+    width: 100%;
+    height: 100%;
+    float: left;
+    background-color: rgb(245, 240, 240);
+    background-size: cover;
+    padding: 35px 0px;
+}
+
+
+.maincontshlr p {
+    font-family: CentSchbook BT;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+
+    color: black;
+
+}
+
+
+.maincontshlr .tfh1 {
+    font-family: CentSchbook BT;
+    margin: 0 0 34px 0;
+    font-size: 36px;
+    font-weight: 300;
+    color: #002147;
+}
+
+/********************************* About Us start **********************/
+.maincontaboutus {
+    width: 100%;
+    height: 100%;
+    float: left;
+    background-color: #FFFFFF;
+    background-size: cover;
+    padding: 35px 0px;
+
+    font-family: CentSchbook BT;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.maincontaboutus ul {
+    list-style: none;
+}
+
+.maincontaboutus ul li::before {
+    content: "\2022";
+    color: red;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.whoweare_h1 {
+    font-family: CentSchbook BT;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    margin: 40px;
+}
+
+.aboutus_1_1 {
+    width: 100%;
+    height: 250px;
+    border-radius: 25px;
+}
+
+.aboutusimg {
+    width: 100%;
+    height: 450px;
+    border-radius: 25px;
+}
+
+.aboutus_2_1 {
+    width: 100%;
+    height: 250px;
+    border-radius: 25px;
+}
+
+.aboutus_3_1 {
+    width: 100%;
+    height: 250px;
+}
+
+.aboutus_1_1_h3 {
+    font-family: CentSchbook BT;
+    font-size: 28px;
+    font-weight: 600;
+    padding: 25px 0px;
+    margin: 40px;
+}
+
+.aboutus_2_1_h3 {
+    margin: 40px;
+    font-family: CentSchbook BT;
+    font-size: 28px;
+    font-weight: 600;
+    padding: 25px 0px;
+}
+
+.aboutus_3_1_h3 {
+    margin: 40px;
+    font-family: CentSchbook BT;
+    font-size: 28px;
+    font-weight: 600;
+    padding: 25px 0px;
+}
+
+.maincontvision {
+    width: 100%;
+    height: 100%;
+    float: left;
+    background-color: #FFFFFF;
+    background-size: cover;
+    padding: 35px 0px;
+
+    font-family: CentSchbook BT;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+
+.maincontvision h3 {
+    font-family: CentSchbook BT;
+    font-size: 28px;
+    font-weight: 600;
+    padding: 25px 0px;
+}
+
+
+.maincontvision .aboutus_1_1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.maincontvision .aboutus_2_1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.maincontvision .aboutus_3_1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.aboutfounder {
+    font-family: CentSchbook BT;
+    font-size: 40px;
+    font-weight: 600;
+    padding: 25px 0px;
+}
+
+.maincontvision .maddam {
+    display: block;
+    /* margin-left: auto;
+   margin-right: auto; */
+    border-radius: 100%;
+    width: 30%;
+    height: 30%;
+}
+
+.maincontaboutus .infodiv {
+    border-bottom: 2px solid #002147;
+    margin-bottom: 10px;
+}
+
+/********************************* About Us end **********************/
