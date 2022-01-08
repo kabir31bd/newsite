@@ -1232,7 +1232,7 @@ hr {
 }
 
 .blocktitles{
-    padding: 40px 0px;
+    padding: 40px 0px 60px 0px;
 }
 
 .block-title {
@@ -1243,7 +1243,7 @@ hr {
     color: #FFFFFF;
     background-color: #23085A;
     text-align: center;
-    padding: 15px;
+    padding: 10px 15px;
 }
 
 .whyus .whyusblock{
