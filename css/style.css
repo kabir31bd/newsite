@@ -1214,8 +1214,6 @@ hr {
 
 
 .whyus {
-    /* background-color: #070B4B; */
-
     width: 100%;
     height: 100%;
     color: #FFFFFF;
@@ -1224,7 +1222,6 @@ hr {
     padding: 0px 0px;
     text-align: center;
     position: relative;
-    /* background: transparent !important; */
     background-image: url('images/bg_1.jpg') no-repeat;
     background-size: fixed;
     background-image: url(../images/bg_1.jpg);
@@ -1232,31 +1229,34 @@ hr {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
 
+.blocktitles{
+    padding: 40px 0px;
 }
 
 .block-title {
-
     font-family: CentSchbook BT, sans-serif;
-    font-size: 38px;
-    line-height: 48px;
+    font-size: 30px;
+    line-height: 16px;
     font-weight: 900;
     color: #FFFFFF;
     background-color: #23085A;
     text-align: center;
-    padding: 25px;
+    padding: 15px;
 }
 
 .whyus .whyusblock{
     width: 100%;
     height: 100%;
     /* margin: 15px; */
+    padding: 0px 25px;
 }
 
 .whyus ul {
     width: 100%;
     /* max-width: 1024px; */
-    height: 140px;
+    height: 160px;
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
@@ -1275,16 +1275,18 @@ hr {
     text-align: center;
 }
 
+
+
 .whyus ul li {
     background-color: #fff;
-    border: 3px solid #5DEB4B;
+    border: 3px solid #d808d8;
     border-radius: 50px 0;
     float: left;
-    -webkit-box-shadow: 0 10px 6px -6px #5DEB4B;
-    -moz-box-shadow: 0 10px 6px -6px #5DEB4B;
+    -webkit-box-shadow: 0 10px 6px -6px #d808d8;
+    -moz-box-shadow: 0 10px 6px -6px #d808d8;
     box-shadow: 0 10px 6px -6px #23085a;
     /* margin-left: 16px; */
-    margin: 0px 15px;
+    margin: 15px 15px;
 }
 
 
