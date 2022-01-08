@@ -1267,7 +1267,7 @@ hr {
     -ms-justify-content: space-between;
     justify-content: space-between;
     -ms-flex-pack: space-between;
-    margin: 10px 0px 13px -35px;
+    margin: 10px 0px 13px 0px;
     padding: 0px 80px;
     float: left;
     position: relative;
