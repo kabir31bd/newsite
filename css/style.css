@@ -206,8 +206,8 @@ img.brandlogo_1 {
     padding: 25px 0px;
     font-family: CentSchbook BT;
     text-transform: uppercase;
-    font-weight: 900;
-    color: black;
+    font-weight: 200;
+    color: #2d0480;
 }
 
 .navbar .navbar-brand .brandlogo_3 {
@@ -220,7 +220,7 @@ img.brandlogo_1 {
     font-family: Palatino;
     text-transform: uppercase;
     font-weight: 900;
-    color: black;
+    color: #2d0480;
 
 }
 
@@ -247,7 +247,7 @@ img.brandlogo_1 {
     font-family: CentSchbook BT;
     text-transform: uppercase;
     font-weight: 900;
-    color: black;
+    color: #00023D;
 }
 
 .navbar .navbar-brand .brandlogo_3 {
@@ -261,7 +261,7 @@ img.brandlogo_1 {
     font-family: CentSchbook BT;
     text-transform: uppercase;
     font-weight: 900;
-    color: black;
+    color: #00023D;
 
 }
 
@@ -1217,7 +1217,7 @@ hr {
     width: 100%;
     height: 100%;
     color: #FFFFFF;
-    background-color: #23085A;
+    background-color: #1a0c5f;
     margin: 0px 0px;
     padding: 0px 0px;
     text-align: center;
@@ -1238,10 +1238,10 @@ hr {
 .block-title {
     font-family: CentSchbook BT, sans-serif;
     font-size: 30px;
-    line-height: 16px;
+    line-height: 26px;
     font-weight: 900;
     color: #FFFFFF;
-    background-color: #23085A;
+    background-color: #1a0c5f;
     text-align: center;
     padding: 10px 15px;
 }
