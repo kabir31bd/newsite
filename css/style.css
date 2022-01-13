@@ -1435,23 +1435,35 @@ hr {
 
 .whatourstudentsay {
     width: 100%;
-    height: 100%;
+    height: 85PX;
     color: #07f3cc;
     background-color: #1a0c5f;
     margin: 0px 0px;
-    padding: 0px 0px;
+    padding: 15px 0px;
     text-align: center;
     position: relative;
 }
 
 .whatourstudentsaybody {
     width: 100%;
-    height: 380px;
+    height: 480px;
     margin: auto auto;
     padding: 15px 15px;
-    /* background-image: url(images/SMIConBarBackground.png);
-    background-attachment: fixed;
-    background-size: cover; */
+
+    background-image: url(../images/Video-Pattern.jpg);
+    /* background-attachment: fixed; */
+    /* background-size: cover; */
+    background-repeat: repeat;
+    /* background-position: center; */
+}
+.whatourstudentsaybodyblue {
+    width: 100%;
+    height: 250px;
+    /* margin: auto auto; */
+
+    background-image: url(../images/SMIConBarBackground.png);
+    background-repeat: repeat;
+    margin: 100px 0px 0px -3px;
 }
 
 .whatourstudentsaybody .firstbox {
@@ -1461,7 +1473,7 @@ hr {
     border-radius: 100%;
 
    
-    padding: 0px 0px 25px 85px;
+    /* padding: -25px 0px 25px 85px; */
     /* padding: 140px 10px 10px 10px; */
     /* margin-top: 10px;
     margin-bottom: 10px;
@@ -1475,16 +1487,13 @@ hr {
     border-radius: 100%;
    
     text-align: center;
-    /* margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 145px; */
-    /* padding: 140px 10px 10px 10px; */
+    
     margin: auto;
     display: block;
     padding: 0px 0px 25px 0px;
 
     background-image: url(../images/PK-Campus.jpg);
-    /* background-attachment: fixed; */
+    
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1513,7 +1522,7 @@ hr {
     padding: 0px 0px 25px 0px;
 
     background-image: url(../images/EA-Campus.jpg);
-    /* background-attachment: fixed; */
+    
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1521,21 +1530,119 @@ hr {
 
 }
 
+.firstbox-flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    border-radius: 100%;
+  }
 
-.whatourstudentsaybody .secondbox .EAtext h2{
+  
+
+/*************** First Box ****************/
+
+
+.whatourstudentsaybody .firstbox {
+    height: 330px;
+    width: 330px;
+    float: left;
+    
+
+    border-radius: 100%;
+
+    margin: auto;
+    display: block;
+    padding: 0px 0px 25px 80px;
+    
+}
+
+
+.firstbox-flip-box {
+
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+    height: 330px;
+    width: 330px;
+    float: left;
+    
+    border-radius: 100%;
+    margin: auto;
+    display: block;
+    
+    border-radius: 100%;
+    margin-top: -34px;
+  }
+  
+  /* This container is needed to position the front and back side */
+  .firstbox-flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    border-radius: 100%;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .firstbox-flip-box:hover .firstbox-flip-box-inner {
+    transform: rotateY(180deg);
+    border-radius: 100%;
+  }
+  
+  /* Position the front and back side */
+  .firstbox-flip-box-front, .firstbox-flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+    border-radius: 100%;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .firstbox-flip-box-front {
+    background-color: #bbb;
+    color: black;
+    border-radius: 100%;
+  }
+  
+  /* Style the back side */
+  .firstbox-flip-box-back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+    border-radius: 100%;
+    border: 5px solid white;
+    width: 360px;
+    height: 340px;
+  }
+
+
+  .firstbox-flip-box-front img{
+    border-radius: 100%;
+    width: 330px;
+    height: 330px;
+    border: 5px solid white;
+  }
+
+  
+.whatourstudentsaybody .firstbox .firstbox-flip-box-back h2{
     color: #FFFFFF;
     margin: 140px 0px;
 }
 
-.whatourstudentsaybody .secondbox .EAtext a{
+  
+.whatourstudentsaybody .firstbox .firstbox-flip-box-back a{
     color: #FFFFFF;
     margin: 140px 0px;
 }
 
-.whatourstudentsaybody .secondbox .EAtext a{
-    color: #FFFFFF;
-    margin: 10px 0px;
-}
+
+
+  /*************** First Box End ****************/
 
 
 .whatourstudentsaybody .thirdbox .UKtext {
@@ -1569,7 +1676,7 @@ hr {
 
     margin: auto;
     display: block;
-    padding: 0px 0px 25px 140px;
+    padding: 0px 0px 25px 160px;
 }
 
 .secondbox-flip-box {
@@ -1586,6 +1693,9 @@ hr {
     display: block;
     
     border-radius: 100%;
+
+    margin-top: -34px;
+
     
   }
   
@@ -1629,6 +1739,11 @@ hr {
     color: white;
     transform: rotateY(180deg);
     border-radius: 100%;
+
+    border: 5px solid white;
+    width: 360px;
+    height: 340px;
+
   }
 
 
@@ -1636,6 +1751,7 @@ hr {
     border-radius: 100%;
     width: 330px;
     height: 330px;
+    border: 5px solid white;
   }
   
 .whatourstudentsaybody .secondbox .secondbox-flip-box-back h2{
@@ -1650,37 +1766,11 @@ hr {
 }
 
 
-.whatourstudentsaybody .firstbox .secondbox-flip-box-back h2{
-    color: #FFFFFF;
-    margin: 140px 0px;
-}
-
-
-.whatourstudentsaybody .firstbox .secondbox-flip-box-back h2 a{
-    color: #FFFFFF;
-    margin: 140px 0px;
-}
-
 
 .whatourstudentsaybody  .thirdbox-flip-box-back a{
     color: #FFFFFF;
     /* margin: 10px 0px; */
 }
-
-
-
-/* 
-.whatourstudentsaybody .thirdbox {
-    width: 330px;
-    height: 330px;
-    
-    float: left;
-    
-    border-radius: 100%;
-    margin: auto;
-    display: block;
-    padding: 0px 0px 25px 140px;
-} */
 
 .whatourstudentsaybody .thirdbox .thirdbox-flip-box-back h2{
     color: #FFFFFF;
@@ -1715,8 +1805,6 @@ hr {
 
 .thirdbox-flip-box {
 
-    /* background-color: transparent;
-    border: 1px solid #f1f1f1; */
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
     height: 330px;
     width: 330px;
@@ -1727,8 +1815,7 @@ hr {
     display: block;
     
     border-radius: 100%;
-    padding: 0px 0px 25px 60px;
-
+    margin: -34px 0px 0px 85px;
   }
   
   /* This container is needed to position the front and back side */
@@ -1740,8 +1827,6 @@ hr {
     transition: transform 0.8s;
     transform-style: preserve-3d;
     border-radius: 100%;
-    /* padding-left: 60px; */
-    
   }
   
   /* Do an horizontal flip when you move the mouse over the flip box container */
@@ -1773,6 +1858,11 @@ hr {
     color: white;
     transform: rotateY(180deg);
     border-radius: 100%;
+
+    border: 5px solid white;
+    width: 360px;
+    height: 340px;
+
   }
 
 
@@ -1780,9 +1870,98 @@ hr {
     border-radius: 100%;
     width: 330px;
     height: 330px;
-    
+    border: 5px solid white;
   }
-  
+
+  /*************** Third Box End ****************/
+
+.copyright {
+    width: 100%;
+    height: 55px;
+    background-color: #4e4e50;
+    color: white;
+    text-align: center;
+    padding: 15px 0px;
+}
+
+
+.upcoming-lectures-widget {
+    width: 100%;
+    height: 100%;
+    float: left;
+    background: #2f0ed6;
+}
+
+.upcoming-lectures-widget-label{
+    width: 20%;
+    height: 100%;
+
+}
+
+.lacturetitle {
+    font-family: CentSchbook BT, sans-serif;
+    font-size: 28px;
+    line-height: 38px;
+    color: #FFFFFF;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+
+    letter-spacing: 5px;
+    padding: 30px 25px;
+
+}
+
+.upcoming-lectures-widget-content {
+    width: 75%;
+    height: 100%;
+    background-color: #30D8A8 ;
+}
+
+.upcoming-lectures-widget-content .upcoming-lectures-tardis {
+    width: 100%;
+    height: 130px;
+
+}
+
+.upcoming-lectures-tardis > div + div:before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 1px;
+    border-left: 1px dotted #0d0d0e;
+}
+
+.upcoming-lecture {
+    width: 25%;
+    height: 100%;
+    display: block;
+    float: left;
+    padding: 25px;
+
+}
+
+.upcoming-lecture .upcoming-lecture-date{
+    font-size: 13px;
+    line-height: 17px;
+    color: rgb(5, 7, 131);
+}
+
+.upcoming-lecture-title{
+
+    font-size: 12px;
+    margin-top: 4px;
+    color: rgb(5, 7, 131);
+    /* font-weight: 600; */
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.upcoming-lectures-widget-nav {
+    width: 75%;
+    height: 100%;
+}
 /* 
 .whatourstudentsaybody .thirdbox:hover {
     
